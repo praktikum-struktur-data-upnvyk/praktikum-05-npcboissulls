@@ -75,7 +75,7 @@ bool push(Stack& s, int nilai) {
     if(newNode == nullptr){
         return false;
     }
-    Node* newNode = new Node;
+    //Node* newNode = new Node;
     newNode->data = nilai;
     newNode->next = s.top;
     s.top = newNode;
