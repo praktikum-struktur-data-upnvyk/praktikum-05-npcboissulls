@@ -90,7 +90,7 @@ bool pop(Stack& s, int& nilai) {
     }  
 
     Node *temp = s.top;
-    int nilai = temp->data;
+    nilai = temp->data;
     s.top = s.top->next;
     delete temp;
     return true;
